@@ -265,7 +265,7 @@ Lista ordenada:
                       <div className="p-4 bg-muted/50 rounded-lg border">
                         <p>Crie um relatório sobre <span className="bg-amber-100 text-amber-800 px-2 py-1 rounded font-mono text-sm">[tipo de projeto]</span> para <span className="bg-amber-100 text-amber-800 px-2 py-1 rounded font-mono text-sm">[departamento]</span>.</p>
                         <p className="text-sm text-muted-foreground mt-2 italic">
-                          Exemplo: "Crie um relatório sobre implementação de sistema ERP para TI."
+                          Exemplo: &quot;Crie um relatório sobre implementação de sistema ERP para TI.&quot;
                         </p>
                       </div>
                     </div>
