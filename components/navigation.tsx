@@ -41,6 +41,19 @@ export function Navigation() {
               </Button>
             </Link>
           ))}
+          <div className="ml-4 pl-4 border-l">
+            <Link href="/guia-markdown">
+              <Button
+                variant={pathname === "/guia-markdown" ? "secondary" : "ghost"}
+                className={cn(
+                  "transition-colors",
+                  pathname === "/guia-markdown" && "bg-secondary"
+                )}
+              >
+                Guia Markdown
+              </Button>
+            </Link>
+          </div>
         </div>
 
         <Button variant="ghost" size="icon" className="md:hidden">
