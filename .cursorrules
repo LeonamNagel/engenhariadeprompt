@@ -1,0 +1,48 @@
+# Regras do Projeto - Plataforma de Engenharia de Prompt
+
+## Versões Específicas de Dependências
+
+**IMPORTANTE**: Este projeto utiliza versões específicas e fixas das seguintes dependências principais:
+
+- **Next.js**: `15.1.0` (versão exata)
+- **React**: `^19.0.0` (versão mínima 19.0.0)
+- **React DOM**: `^19.0.0` (versão mínima 19.0.0)
+
+### Regra de Atualização
+
+Ao adicionar novas dependências ou atualizar pacotes existentes:
+1. **NUNCA** atualize Next.js para uma versão diferente de 15.1.0 sem aprovação explícita
+2. **NUNCA** atualize React para uma versão anterior à 19.0.0
+3. Sempre verifique compatibilidade entre Next.js 15.1.0 e React 19 antes de adicionar novas dependências
+4. Documente qualquer mudança de versão no arquivo CHANGELOG.md (se existir)
+
+### Verificação de Versões
+
+Antes de fazer alterações no `package.json`, sempre verifique:
+- Next.js está em `15.1.0`
+- React está em `^19.0.0` ou superior compatível
+- React DOM está em `^19.0.0` ou superior compatível
+
+## Stack Tecnológica
+
+- **Framework**: Next.js 15.1.0 (App Router)
+- **UI Library**: Shadcn UI
+- **Styling**: Tailwind CSS
+- **Language**: TypeScript
+- **Package Manager**: npm (padrão)
+
+## Estrutura do Projeto
+
+- `/app` - Rotas e páginas (App Router)
+- `/components` - Componentes reutilizáveis
+- `/components/ui` - Componentes do Shadcn UI
+- `/lib` - Utilitários e helpers
+
+## Convenções
+
+- Use TypeScript para todos os arquivos
+- Componentes devem ser criados como Server Components por padrão
+- Use "use client" apenas quando necessário (interatividade, hooks)
+- Siga os padrões do Shadcn UI para componentes de UI
+- Use Tailwind CSS para estilização
+
